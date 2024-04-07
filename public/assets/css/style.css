@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+a {
+    text-decoration: 0;
+}
+html {
+    font-size: 100%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 9px;
+}
+::-webkit-scrollbar {
+    width: 8px;
+ 
+}
+::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+}
+
+section {
+    margin-top: 50px;
+}
+
+header {
+    background-color: #222;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 5%;
+
+}
+header  .logo a {
+    font-size: 25px;
+    color: #29d9d5;
+ 
+}
+header  .logo a span {
+    color: #fff;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+.menu li  {
+    margin: 0 15px;
+    list-style-type: none;
+}
+.menu li a {
+    color: #fff;
+    font-size: 14px;
+}
+.btn-reservation {
+    color: #29d9d5;
+    font-size: 14px;
+    border: 2px solid #29d9d5;
+    padding: 5px 20px;
+    transition: 0.5s;
+    font-weight: bolder;
+}
+.btn-reservation:hover {
+    background-color: #29d9d5;
+    color: #fff;
+ 
+}
+h3{
+    text-align: center;
+   
+
+}
+h1{
+    text-align: center;
+    background-color: #29d9d5; 
+}
+label{
+ font-family: 'Raleway', sans-serif;
+ font-size: 18px;
+ font-weight: bold;
+    
+}
